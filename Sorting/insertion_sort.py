@@ -1,8 +1,8 @@
 # Sorting array in Ascending order
 def insertion_sort(arr):
-    # We start by considering the second element in the array
+    # Starting by considering the second element in the array
     for j in range(2, len(arr), 1):
-        # We store the input value
+        # Storing the input value
         key = arr[j]
         i = j - 1
         # Compare the input value with the previous one
